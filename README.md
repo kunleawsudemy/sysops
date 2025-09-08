@@ -1,5 +1,5 @@
 # AWS Certified SysOps Administrator Associate Course Code
-*By [Digital Cloud Training](https://digitalcloud.training/) - Course Author Neal Davis*
+*By Kunle J. Adex Sr.*
 
 ## How to Use the Course Code
 
@@ -23,5 +23,3 @@ This course covers all of the following topics that are included in the AWS Cert
 - AWS Systems Manager, AWS OpsWorks, AWS Elastic Beanstalk, AWS CloudFormation, and Amazon VPC
 - Amazon Route 53, Amazon S3, Amazon CloudFront, AWS Organizations, Amazon CloudWatch, AWS CloudTrail
 - AWS Config, AWS Service Catalog, AWS Trusted Advisor, AWS IAM, Amazon Inspector, AWS KMS, AWS CloudHSM, AWS WAF & Shield, AWS Artifact, and AWS Directory Services
-
-Learn more and [enroll in this course](https://digitalcloud.training/aws-certified-sysops-administrator-associate/) now to earn your AWS Certified SysOps Administrator Associate certification
