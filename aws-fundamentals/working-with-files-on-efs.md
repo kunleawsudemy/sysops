@@ -24,9 +24,15 @@ sudo yum -y install nfs-utils
 sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-023adf2979936b0be.efs.us-east-1.amazonaws.com:/ ~/efs-mount-point
 4. Create a file on the file system
 5. Add a file system policy to enforce encryption in-transit
+    Go to EFS Console 
+    Click on File System Policy Tab 
+    Click on edit 
+    Select "Enforce in-transit encryption for all clients" 
+    Click save 
+   
 6. Unmount (make sure to change directory out of efs-mount-point first)
 sudo umount ~/efs-mount-point
-4. Mount again using the EFS client (what happens?)
+7. Mount again using the EFS client (what happens?)
 
 ## Mount using the EFS utils (perform steps on both instances)
 1. Install EFS utils
