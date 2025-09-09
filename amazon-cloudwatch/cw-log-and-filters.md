@@ -2,7 +2,7 @@
 1. If not already installed, install the CloudWatch agent
 sudo yum install amazon-cloudwatch-agent
 2. Also, install collectd
-sudo amazon-linux-extras install collectd
+sudo yum install -y collectd
 3. Install and enable Apache
 sudo yum install -y httpd
 sudo systemctl start httpd
